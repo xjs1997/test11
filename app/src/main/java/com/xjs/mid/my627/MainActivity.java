@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //2判断记住密码是否被选中，如果被选中，存起来
         if (checkBox.isChecked()){
             //当前需要记住密码
-            Log.i(tag,"记住ff密1码ffff2: " + user +","+ password);
+            Log.i(tag,"记住fff密1码ffff2: " + user +","+ password);
 
             boolean    isSuccess  =Utils.saveUserInfo(number,pass);
             if (isSuccess){
